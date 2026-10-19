@@ -1,0 +1,20 @@
+{
+  "suiteVersion": "1.2.0",
+  "vectorSetHash": "sha256:8184227c315ce5f322652d827d070ee510bcb12576aef7471521d67a04b064c6",
+  "vectorCount": 49,
+  "files": [
+    ["audit-integrity.json", "463aec668c72590866d63ab5ee1effcc14564b0721fd87cb41d1e133cba88c86"],
+    ["card-proof.json", "1572c7342814a77023cbaa67592b4e0d357321a69b5c0fc260b1da95923cc04a"],
+    ["delegation-chain.json", "916ee89119a93468a5004ffc691935bfaa9b98103a0407ea318aedab4d5776a0"],
+    ["did-key-resolution.json", "79b443942406b5146289f47f5331f92a32e2a8c429e5f21d5b205cbc536b2afb"],
+    ["did-web-resolution.json", "580fa5736c0a183320d2b736c43b7670e067dbf27c4966391442e77bf0262d4f"],
+    ["entity-card.json", "024d9af2797f879de67968ae14734450e5d1eb24909df403727ebcf5eb5147a8"],
+    ["negotiation.json", "d3eeae3f3ddbeeb22061def234bbc04fa662474a2b69d46e566acf23fccc8a5e"],
+    ["signed-proof.json", "c6efe827a58a232cda277f0afc927bcfab46aac2357db914719874b66192d2dc"],
+    ["status-list.json", "accfdee8e0d5d8349f9cef379d695720d1010893b37e9b0e2060301bcd86e70e"]
+  ],
+  "pinnedAt": {
+    "package": "@kya-os/mcp",
+    "packageVersion": "1.18.0"
+  }
+}

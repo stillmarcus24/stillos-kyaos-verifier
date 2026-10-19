@@ -1,0 +1,12 @@
+# Scratch state written by unrelated local tooling into whatever directory it touches.
+# These regenerated twice while staging this repo; one of them was a 1.5MB memory database.
+# Re-check for them immediately before `git add` — a .gitignore only helps if it exists first.
+.swarm/
+.claude-flow/
+ruvector.db
+*.db
+*.db-shm
+*.db-wal
+
+report.json
+node_modules/

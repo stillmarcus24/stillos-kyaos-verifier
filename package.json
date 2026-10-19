@@ -1,0 +1,14 @@
+{
+  "name": "stillos-kyaos-verifier",
+  "version": "1.0.0",
+  "description": "Independent verify-only implementation of the KYA-OS v1 verify primitives. Zero dependencies.",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/stillmarcus24/stillos-kyaos-verifier" },
+  "scripts": {
+    "conformance": "node kyaos_verify.cjs",
+    "report": "node kyaos_verify.cjs --report > report.json",
+    "suite-hash": "node kyaos_verify.cjs --suite-hash",
+    "test": "node kyaos_verify.cjs --self-test"
+  },
+  "engines": { "node": ">=18" }
+}

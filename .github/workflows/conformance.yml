@@ -1,0 +1,14 @@
+name: conformance
+on: [push, pull_request]
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: '20' }
+      # No `npm install` step on purpose: zero dependencies is the claim, so the CI
+      # that proves it must never have a chance to fetch one.
+      - run: node kyaos_verify.cjs --self-test
+      - run: node kyaos_verify.cjs --suite-hash
+      - run: node kyaos_verify.cjs
